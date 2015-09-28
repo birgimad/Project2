@@ -1,0 +1,92 @@
+\subsection{Change in Matrix Elements after Iterations and Choice of $\theta$}
+\label{subsec:MatrixElementChange}
+% I write here what happens to b_{ij} and how wo choose tau, t, s, c s.a. we creates zeros in B
+The algorithm for solving the eigenvalue problem given in \fxnote{eqref} contains of multiply similarity transformations of the matrix $\v{A}$, in which we assume $a_{kl}$ to be the largest off-diagonal element.
+The matrix $\v{B}$ constructed by the similarity transformation is given by
+\begin{align}
+	\v{B} = \v{S}^T \v{A} \v{S}
+	\label{eq:similarityTransf1}
+\end{align}
+in which $\v{S}$ is an orthogonal transformation matrix with its non-zero matrix elements:
+\begin{align*}
+	& s_{kk} = s_{ll} = \cos \theta
+	\\
+	& s_{kl} = -s_{lk} = -\sin \theta 
+	\\
+	& s_{ii} = 1 , \qquad i \neq k , i \neq l
+\end{align*}
+After matrix multiplication with the orthogonal transformation matrix $\v{S}$ and its transverse (as in \eqref{eq:similarityTransf1}) the entrances of $\v{B}$ becomes
+\begin{align*}
+	& b_{ii} = a_{ii}, \qquad i \neq k, i \neq l
+	\\
+	& b_{ik} = a_{ik} \cos \theta - a_{il} \sin \theta , \qquad i \neq k , i \neq l
+	\\
+	& b_{il} = a_{il} \cos \theta + a_{ik} \sin \theta , \qquad i \neq k , i \neq l
+	\\
+	& b_{kk} = a_{kk} \cos ^2 \theta - 2 a_{kl} \cos \theta \sin \theta + a_{ll} \sin ^2 \theta
+	\\
+	 &b_{ll} = a_{ll} \cos ^2 \theta + 2 a_{kl} \cos \theta \sin \theta + a_{kk} \sin ^2 \theta
+	\\
+	& b_{kl} = (a_{kk} - a_{ll} ) \cos \theta \sin \theta + a_{kl} (\cos ^2 \theta - \sin ^2 \theta )
+\end{align*}
+Due to the symmetry in \eqref{eq:similarityTransf1} with $\v{A}$ being a tridiagonal symmetric matrix, $b_{lk} = b_{kl}$, $b_{ki} = b_{ik}$, and $b_{li} = b_{il}$.
+\fxnote{check that this is actually correct}
+Since $\theta$ can be chosen arbitrarily, we choose $\theta$ to be the angle at which $b_{kl}$, and hence $b_{lk}$, becomes zero.
+In this way, the largest element of $\v{A}$ is eliminated, and it can be shown that this choice of $\theta$ reduces the norm of the off-diagonal elements of $\v{A}$, which ensures that the algorithm terminates towards the eigenvalues.
+\fxnote{this, I can write, right??}
+
+This yields the equation
+\begin{align}
+	0 = (a_{kk} - a_{ll} ) \cos \theta \sin \theta + a_{kl} (\cos ^2 \theta - \sin ^2 \theta )
+	\label{eq:MatrixElements1}
+\end{align}
+By introducing $\tan \theta = \sin \theta / \cos \theta$ and the quantity
+\begin{align}
+	\tau = \frac{a_{ll}-a_{kk}}{2a_{kl}}
+	\label{eq:MatrixElements2}
+\end{align}
+\eqref{eq:MatrixElements1} can be rewritten as the quadratic equation in $\tan \theta$
+\begin{align}
+	\tan ^2 \theta + 2 \tau \tan \theta - 1 = 0
+	\label{eq:MatrixElements3}
+\end{align}
+which has the solutions
+\begin{align}
+	\tan \theta = -\tau \pm \sqrt{1 + \tau ^2}
+	\label{eq:MatrixElements4}
+\end{align}
+From the solutions for $\tan \theta$ given in \eqref{eq:MatrixElements4}, $\cos \theta$ and $\sin \theta$ can be found using the formulas 
+\begin{align*}
+	\cos \theta = \frac{1}{\sqrt{1+\tan ^2 \theta}} \qquad \text{and} \qquad \sin \theta = \tan \theta \cos \theta
+\end{align*}
+If $\tau < 0$, $\tan \theta$ is chosen to be
+\begin{align}
+	\tan \theta = -\tau - \sqrt{1 + \tau ^2}
+	\label{eq:MatrixElements4}
+\end{align}
+whilst if $\tau \geq 0$, $\tan \theta$ is calculated as
+\begin{align}
+	\tan \theta = -\tau + \sqrt{1 + \tau ^2}
+	\label{eq:MatrixElements4}
+\end{align}
+This choice is made to always make $\tan \theta$ the smaller of the two roots given in \eqref{eq:MatrixElements4}.
+Furthermore, this choice ensures that $|\tan \theta | \leq 1$, yielding that $|\theta| \leq \pi/4$.
+
+This is true since $|\tau| \leq 1$, because $|a_{kl}| \geq |a_{ij}|$ for all $i, j$, from which it follows that
+\begin{align}
+	|\tan \theta| = \left|-\tau - \sqrt{1 + \tau ^2}\right| 
+	%= \left| \left( 1 - \sqrt{\frac{1}{\tau ^2} +1} \right) \tau \right| 
+	\leq 1 , \qquad \text{for } \tau < 0
+\end{align}   
+and
+\begin{align}
+	|\tan \theta| = \left|-\tau + \sqrt{1 + \tau ^2}\right|
+	\leq 1 , \qquad \text{for } \tau \geq 0
+\end{align} 
+since $\sqrt{1+\tau^2} \leq \sqrt{2}$.
+
+The fact that $|\theta| \leq \pi/4$ ensures that $\cos \theta \geq 0$ which ultimately ensures that the difference between $\v{A}$ and the new matrix $\v{B}$ is minimized, since
+\begin{align}
+	||\v{B}-\v{A}||_F^2=4(1-c)\sum_{i=1,i\ne k,l}^n(a_{ik}^2+a_{il}^2) +\frac{2a_{kl}^2}{c^2}.
+\end{align}
+\fxnote{and why is this minimization a good thing?? :-P}
