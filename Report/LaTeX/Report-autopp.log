@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.4-1.40.13 (MiKTeX 2.9 64-bit) (preloaded format=latex 2013.8.26)  28 SEP 2015 12:47
+This is pdfTeX, Version 3.1415926-2.4-1.40.13 (MiKTeX 2.9 64-bit) (preloaded format=latex 2013.8.26)  28 SEP 2015 19:52
 entering extended mode
 **\let \APPmakepictures \empty \input  Report.tex
 (C:\Users\Birgitte\Documents\GitHub\Project2\Report\LaTeX\Report.tex (C:\Users\
@@ -1790,6 +1790,15 @@ LaTeX Warning: Reference `chap:method' on page 7 undefined on input line 5.
 )
 (C:\Users\Birgitte\Documents\GitHub\Project2\Report\LaTeX\Chapters/Interpretati
 onOfResults.tex)
+(C:\Users\Birgitte\Documents\GitHub\Project2\Report\LaTeX\Chapters/DependenceOn
+Eigenvalue.tex
+Missing character: There is no Ã in font ptmr7t!
+Missing character: There is no ¶ in font ptmr7t!
+LaTeX Font Info:    Font shape `OT1/ptm/bx/it' in size <10> not available
+(Font)              Font shape `OT1/ptm/b/it' tried instead on input line 23.
+)
+(C:\Users\Birgitte\Documents\GitHub\Project2\Report\LaTeX\Chapters/DependenceOn
+NumberOfIterations.tex)
 (C:\Users\Birgitte\Documents\GitHub\Project2\Report\LaTeX\Chapters/Conclusion.t
 ex)
 No file Report-autopp.bbl.
@@ -1802,7 +1811,7 @@ File: lstlang1.sty 2015/06/04 1.6 listings language file
 Package pst-pdf Warning: Picture container needs cropping..
 
 
-Package lastpage Warning: Rerun to get the references right on input line 36.
+Package lastpage Warning: Rerun to get the references right on input line 38.
 
 
 ! Package lastpage Error: No auxiliary file allowed.
@@ -1811,7 +1820,7 @@ See the lastpage package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.36 \end{document}
+l.38 \end{document}
                    
 The lastpage package was not allowed to write to an .aux file.
 This package does not work without access to an .aux file.
@@ -1825,28 +1834,28 @@ See the lastpage package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.36 \end{document}
+l.38 \end{document}
                    
 The lastpage package was not allowed to write to an .aux file.
 This package does not work without access to an .aux file.
 Press Ctrl+Z to exit.
 
 
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 36.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 36.
-Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 36.
-Package atveryend Info: Empty hook `AtEndAfterFileList' on input line 36.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 38.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 38.
+Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 38.
+Package atveryend Info: Empty hook `AtEndAfterFileList' on input line 38.
 
 LaTeX Warning: There were undefined references.
 
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 36.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 38.
  ) 
 Here is how much of TeX's memory you used:
- 28451 strings out of 493922
- 490602 string characters out of 3147296
- 881848 words of memory out of 3000000
- 31189 multiletter control sequences out of 15000+200000
- 48671 words of font info for 141 fonts, out of 3000000 for 9000
+ 28472 strings out of 493922
+ 491371 string characters out of 3147296
+ 881856 words of memory out of 3000000
+ 31201 multiletter control sequences out of 15000+200000
+ 49204 words of font info for 142 fonts, out of 3000000 for 9000
  849 hyphenation exceptions out of 8191
  57i,19n,97p,620b,1521s stack positions out of 5000i,500n,10000p,200000b,50000s
 

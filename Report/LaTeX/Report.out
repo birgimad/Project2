@@ -6,6 +6,8 @@
 \BOOKMARK [2][-]{subsection.2.2.1}{Change in Matrix Elements after Iterations and Choice of }{section.2.2}% 6
 \BOOKMARK [0][-]{chapter.3}{Results}{}% 7
 \BOOKMARK [1][-]{section.3.1}{Interpretation of Results}{chapter.3}% 8
-\BOOKMARK [0][-]{chapter.4}{Conclusion}{}% 9
-\BOOKMARK [0][-]{section*.3}{Bibliography}{}% 10
-\BOOKMARK [0][-]{appendix.A}{MatLab code for smt....}{}% 11
+\BOOKMARK [2][-]{subsection.3.1.1}{Dependence of max and n on Eigenvalue}{section.3.1}% 9
+\BOOKMARK [2][-]{subsection.3.1.2}{Dependence of n on Number of Iterations}{section.3.1}% 10
+\BOOKMARK [0][-]{chapter.4}{Conclusion}{}% 11
+\BOOKMARK [0][-]{section*.3}{Bibliography}{}% 12
+\BOOKMARK [0][-]{appendix.A}{MatLab code for smt....}{}% 13
