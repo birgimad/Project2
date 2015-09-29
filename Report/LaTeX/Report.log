@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.4-1.40.13 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2013.8.26)  28 SEP 2015 19:52
+This is pdfTeX, Version 3.1415926-2.4-1.40.13 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2013.8.26)  29 SEP 2015 10:04
 entering extended mode
 **Report.tex
 (C:\Users\Birgitte\Documents\GitHub\Project2\Report\LaTeX\Report.tex
@@ -1959,9 +1959,17 @@ line 8.
 roblem.tex
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <14.4> not available
 (Font)              Font shape `OT1/ptm/b/n' tried instead on input line 1.
+Missing character: There is no ‚ in font ptmr7t!
+Missing character: There is no Ä in font ptmr7t!
+Missing character: There is no ô in font ptmr7t!
+Missing character: There is no ‚ in font ptmr7t!
+Missing character: There is no Ä in font ptmr7t!
+Missing character: There is no ô in font ptmr7t!
+Missing character: There is no œ in font ptmr7t!
+Missing character: There is no Å in font ptmr7t!
 )
 (C:\Users\Birgitte\Documents\GitHub\Project2\Report\LaTeX\Chapters/DescriptionO
-fTheAlgorithm.tex)
+fTheAlgorithm.tex [3])
 (C:\Users\Birgitte\Documents\GitHub\Project2\Report\LaTeX\Chapters/MatrixElemen
 tChange.tex
 
@@ -1976,7 +1984,7 @@ Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 (hyperref)                removing `math shift' on input line 1.
 
-[3] [4])
+[4])
 (C:\Users\Birgitte\Documents\GitHub\Project2\Report\LaTeX\Chapters/Results.tex
 [5] [6
 
@@ -2011,7 +2019,7 @@ Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 
 Missing character: There is no √ in font ptmr7t!
 Missing character: There is no ∂ in font ptmr7t!
-<Figures/rho_maxOnEigenvalue.png, id=185, 422.32782pt x 316.18124pt>
+<Figures/rho_maxOnEigenvalue.png, id=193, 422.32782pt x 316.18124pt>
 File: Figures/rho_maxOnEigenvalue.png Graphic file (type png)
 
 <use Figures/rho_maxOnEigenvalue.png>
@@ -2021,7 +2029,7 @@ Package pdftex.def Info: Figures/rho_maxOnEigenvalue.png used on input line 22.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/it' in size <10> not available
 (Font)              Font shape `OT1/ptm/b/it' tried instead on input line 23.
  [7]
-<Figures/MatrixSizeOnEigenvalue_2state.png, id=201, 422.32782pt x 316.18124pt>
+<Figures/MatrixSizeOnEigenvalue_2state.png, id=209, 422.32782pt x 316.18124pt>
 File: Figures/MatrixSizeOnEigenvalue_2state.png Graphic file (type png)
 
 <use Figures/MatrixSizeOnEigenvalue_2state.png>
@@ -2080,10 +2088,10 @@ LaTeX Warning: There were multiply-defined labels.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 38.
  ) 
 Here is how much of TeX's memory you used:
- 29050 strings out of 493921
- 499764 string characters out of 3147273
- 889660 words of memory out of 3000000
- 31613 multiletter control sequences out of 15000+200000
+ 29060 strings out of 493921
+ 499944 string characters out of 3147273
+ 892866 words of memory out of 3000000
+ 31617 multiletter control sequences out of 15000+200000
  82858 words of font info for 187 fonts, out of 3000000 for 9000
  849 hyphenation exceptions out of 8191
  57i,19n,97p,583b,1534s stack positions out of 5000i,500n,10000p,200000b,50000s
@@ -2098,9 +2106,9 @@ rogram Files/MiKTeX 2.9/fonts/type1/urw/symbol/usyr.pfb><C:/Program Files/MiKTe
 X 2.9/fonts/type1/urw/times/utmb8a.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1
 /urw/times/utmbi8a.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/urw/times/utmr8
 a.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/urw/times/utmri8a.pfb>
-Output written on Report.pdf (21 pages, 202565 bytes).
+Output written on Report.pdf (21 pages, 206057 bytes).
 PDF statistics:
- 328 PDF objects out of 1000 (max. 8388607)
- 99 named destinations out of 1000 (max. 500000)
+ 337 PDF objects out of 1000 (max. 8388607)
+ 105 named destinations out of 1000 (max. 500000)
  120 words of extra memory for PDF output out of 10000 (max. 10000000)
 

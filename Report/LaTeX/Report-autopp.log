@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.4-1.40.13 (MiKTeX 2.9 64-bit) (preloaded format=latex 2013.8.26)  28 SEP 2015 19:52
+This is pdfTeX, Version 3.1415926-2.4-1.40.13 (MiKTeX 2.9 64-bit) (preloaded format=latex 2013.8.26)  29 SEP 2015 10:04
 entering extended mode
 **\let \APPmakepictures \empty \input  Report.tex
 (C:\Users\Birgitte\Documents\GitHub\Project2\Report\LaTeX\Report.tex (C:\Users\
@@ -1757,6 +1757,14 @@ LaTeX Warning: Reference `chap:method' on page 1 undefined on input line 10.
 roblem.tex
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <14.4> not available
 (Font)              Font shape `OT1/ptm/b/n' tried instead on input line 1.
+Missing character: There is no ‚ in font ptmr7t!
+Missing character: There is no Ä in font ptmr7t!
+Missing character: There is no ô in font ptmr7t!
+Missing character: There is no ‚ in font ptmr7t!
+Missing character: There is no Ä in font ptmr7t!
+Missing character: There is no ô in font ptmr7t!
+Missing character: There is no œ in font ptmr7t!
+Missing character: There is no Å in font ptmr7t!
 )
 (C:\Users\Birgitte\Documents\GitHub\Project2\Report\LaTeX\Chapters/DescriptionO
 fTheAlgorithm.tex)
@@ -1771,15 +1779,15 @@ LaTeX Warning: Reference `eq:similarityTransf1' on page 4 undefined on input li
 ne 32.
 
 
-LaTeX Warning: Reference `eq:MatrixElements1' on page 4 undefined on input line
+LaTeX Warning: Reference `eq:MatrixElements1' on page 5 undefined on input line
  48.
 
 
-LaTeX Warning: Reference `eq:MatrixElements4' on page 4 undefined on input line
+LaTeX Warning: Reference `eq:MatrixElements4' on page 5 undefined on input line
  58.
 
 
-LaTeX Warning: Reference `eq:MatrixElements4' on page 4 undefined on input line
+LaTeX Warning: Reference `eq:MatrixElements4' on page 5 undefined on input line
  72.
 
 ) (C:\Users\Birgitte\Documents\GitHub\Project2\Report\LaTeX\Chapters/Results.te
@@ -1853,7 +1861,7 @@ Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 38.
 Here is how much of TeX's memory you used:
  28472 strings out of 493922
  491371 string characters out of 3147296
- 881856 words of memory out of 3000000
+ 884856 words of memory out of 3000000
  31201 multiletter control sequences out of 15000+200000
  49204 words of font info for 142 fonts, out of 3000000 for 9000
  849 hyphenation exceptions out of 8191

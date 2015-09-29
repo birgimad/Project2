@@ -3,4 +3,28 @@
 %Give a short description of the nature of the problem and the eventual numerical methods, you have used.
 %"Non-computational" algebra
 %Show that you can rewrite this equation as a linear set of equations of the form
-This problem..... bla bla bla.....
+First part of the project is aimed at solving Schrodinger’s equations for one electron. The radial part of the Schrodinger’s equation is considered which is as follows
+\begin{align}
+-\frac{\hbar^2}{2 m} \left ( \frac{1}{r^2} \frac{d}{dr} r^2
+  \frac{d}{dr} - \frac{l (l + 1)}{r^2} \right )R(r) 
+     + V(r) R(r) = E R(r).
+     \label{eq:NatureOfTheProblem1}
+\end{align}
+In order to solve this equation numerically, it is rewritten after a series of transformation and substitution as
+\begin{align}
+	-\frac{d^2}{d\rho^2} u(\rho) + \rho^2u(\rho)  = \lambda u(\rho)
+	\label{eq:NatureOfTheProblem2}
+\end{align}
+\fxnote{eq-ref} is discretized by assuming the second derivative of u
+\begin{align}
+	u''=\frac{u(\rho+h) -2u(\rho) +u(\rho-h)}{h^2} +O(h^2)
+	\label{eq:NatureOfTheProblem3}
+\end{align}   
+In \fxnote{eq-ref} h is the step length, $\rho_{max}$ and $\rho_{min}$ are the maximum and minimum values of the variable ρ. For a given number of n step , h is given by
+\begin{align}
+	h=\frac{\rho_{\mathrm{max}}-\rho_{\mathrm{min}} }{n_{\mathrm{step}}}
+	\label{eq:NatureOfTheProblem4}
+\end{align}
+Inorder to solve equation (3) it is transformed into a matrix eigenvalue problem 
+
+CONTINUE.....
