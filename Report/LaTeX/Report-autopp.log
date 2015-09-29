@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=latex 2015.9.9)  29 SEP 2015 15:59
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=latex 2015.9.9)  29 SEP 2015 16:03
 entering extended mode
  %&-line parsing enabled.
 **\let \APPmakepictures \empty \input  Report.tex
@@ -1389,7 +1389,7 @@ LaTeX Warning: Reference `eq:MatrixElements4' on page 5 undefined on input line
 LaTeX Warning: Reference `eq:normA' on page 5 undefined on input line 5.
 
 
-LaTeX Warning: Reference `eq:maxa' on page 6 undefined on input line 20.
+LaTeX Warning: Reference `eq:maxa' on page 6 undefined on input line 13.
 
 ) (./Chapters/Results.tex
 
