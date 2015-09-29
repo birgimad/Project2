@@ -114,6 +114,8 @@ int main()
     cout << "n = " << n << endl;
     cout << "rho_min = " << rho_min << endl;
     cout << "rho_max = " << rho_max << endl;
+    cout << " " << endl;
+    cout << "Jacobi:" << endl;
 
     double h = (rho_max - rho_min)/(n+1); //step length
 
@@ -190,19 +192,22 @@ int main()
     }
 
     //Printing 1st, 2nd and 3rd eigenvalue
+
     cout << "min1 = " << min1 << endl;
     cout << "min2 = " << min2 << endl;
     cout << "min3 = " << min3 << endl;
-    cout<< "start: " << start << endl;
-    cout << "elapsed time: "<< t <<"s"<< endl;
+    cout << "start: " << start << endl;
     cout << "finish: "<< finish <<endl;
+    cout << "elapsed time: "<< t <<"s"<< endl;
+
 
 
     //Printing results to file
-    ofstream myfile2 ("Results.txt"); //Creates output file
+    ofstream myfile2 ("t_for_jacobi.txt"); //Creates output file
       if (myfile2.is_open())           //checkes whether the output file is open.
                                       //if open, the following things are put in the output file
       {
+          myfile2 << "Using Jacobi method" << endl;
           myfile2 << "n = " << n << endl;
           myfile2 << "rho_max = "<< rho_max << endl;
           myfile2 << "min1 = "<< min1 << endl;
@@ -225,19 +230,22 @@ int main()
       //double clocks_per_sec
       double t1 = ((finish-start)/CLOCKS_PER_SEC);
 
+      cout << " " << endl;
+      cout << "Armadillo eig_sym:" << endl;
       cout << eigval(0)<<endl;
       cout << eigval(1)<<endl;
       cout << eigval(2)<<endl;
-      cout << CLOCKS_PER_SEC;
       cout<< "start: " << start << endl;
-      cout << "elapsed time: "<< t1 <<"s"<< endl;
       cout << "finish: "<< finish <<endl;
+      cout << "elapsed time: "<< t1 <<"s"<< endl;
+
       //cout << eigvec << endl;
       //Printing results to file
           ofstream myfile ("t_for_eigfunc.txt"); //Creates output file
             if (myfile.is_open())           //checkes whether the output file is open.
                                             //if open, the following things are put in the output file
             {
+                myfile << "Using eigenvalue function from Armadillo" << endl;
                 myfile << "n = " << n << endl;
                 myfile << "rho_max = "<< rho_max << endl;
                 myfile << "min1 = "<< eigval(0) << endl;
