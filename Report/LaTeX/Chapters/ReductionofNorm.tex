@@ -2,7 +2,7 @@
 
 \subsection*{Off-diagonal norm}
 
-Similarity transformations is used to reduce the off-diagonal norm. The norm found by \eqref{eq:normA}, is wanted as small as possible and smaller than a given test value $\epsilon $. Ideally the norm should get to zero, but that is difficult because when the elements gets small there can be problems with round-off errors. The value $\epsilon $ is therefore set so that it gives the smallest values possible without problems round-off errors, typically set around $10^{-8}$.  
+Similarity transformations is used to reduce the off-diagonal norm. The norm found by \matref{eq:normA}, is wanted as small as possible and smaller than a given test value $\epsilon $. Ideally the norm should get to zero, but that is difficult because when the elements gets small there can be problems with round-off errors. The value $\epsilon $ is therefore set so that it gives the smallest values possible without problems round-off errors, typically set around $10^{-8}$.  
 
 \begin{equation}
 	off(\v{A}) = \sqrt{\sum_{i=1}^n\sum_{j=1,j \ne i}^n a_{ij}^2}
@@ -10,12 +10,12 @@ Similarity transformations is used to reduce the off-diagonal norm. The norm fou
 \end{equation} 
 
 
-This norm i compared after each transformation so that the new matrix $\v{B}$ is as close to a diagonal matrix as possible. But this is a very time consuming approach and requires many calculations. So instead \eqref{eq:maxa} is used as it is less time consuming. 
+This norm i compared after each transformation so that the new matrix $\v{B}$ is as close to a diagonal matrix as possible. But this is a very time consuming approach and requires many calculations. So instead \matref{eq:maxa} is used as it is less time consuming. 
 
-\begin{equation*}
+\begin{equation}
 	max(a_{kl}^2) > \epsilon
 	\label{eq:maxa}
-\end{equation*}
+\end{equation}
 
 This is possible because if the biggest element squared is smaller than $\epsilon$ then all other values will be equally small or smaller. Which means that they are so small that the possibility for round-off errors is big. As it is not possible to get ensure that the process further gives correct values the transformation loop should stop. 
 

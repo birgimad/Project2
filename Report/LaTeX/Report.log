@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2015.9.9)  29 SEP 2015 16:03
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2015.9.9)  29 SEP 2015 17:30
 entering extended mode
  \write18 enabled.
  %&-line parsing enabled.
@@ -1542,12 +1542,8 @@ Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 (hyperref)                removing `math shift' on input line 1.
 
-[4]) (./Chapters/ReductionofNorm.tex [5]
-
-LaTeX Warning: Reference `eq:maxa' on page 6 undefined on input line 13.
-
-) (./Chapters/Results.tex [6]) (./Chapters/InterpretationOfResults.tex)
-(./Chapters/DependenceOnEigenvalue.tex
+[4]) (./Chapters/ReductionofNorm.tex [5]) (./Chapters/Results.tex [6])
+(./Chapters/InterpretationOfResults.tex) (./Chapters/DependenceOnEigenvalue.tex
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 (hyperref)                removing `math shift' on input line 1.
@@ -1574,7 +1570,7 @@ Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 
 Missing character: There is no Ã in font ptmr7t!
 Missing character: There is no ¶ in font ptmr7t!
-<Figures/rho_maxOnEigenvalue.png, id=196, 422.32782pt x 316.18124pt>
+<Figures/rho_maxOnEigenvalue.png, id=198, 422.32782pt x 316.18124pt>
 File: Figures/rho_maxOnEigenvalue.png Graphic file (type png)
 
 <use Figures/rho_maxOnEigenvalue.png>
@@ -1586,7 +1582,7 @@ LaTeX Font Info:    Font shape `OT1/ptm/bx/it' in size <10> not available
  [7
 
 ]
-<Figures/MatrixSizeOnEigenvalue_2state.png, id=212, 422.32782pt x 316.18124pt>
+<Figures/MatrixSizeOnEigenvalue_2state.png, id=214, 422.32782pt x 316.18124pt>
 File: Figures/MatrixSizeOnEigenvalue_2state.png Graphic file (type png)
 
 <use Figures/MatrixSizeOnEigenvalue_2state.png>
@@ -1640,9 +1636,9 @@ LaTeX Warning: There were multiply-defined labels.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 39.
  ) 
 Here is how much of TeX's memory you used:
- 20926 strings out of 494424
- 313080 string characters out of 6165347
- 643809 words of memory out of 5000000
+ 20927 strings out of 494424
+ 313095 string characters out of 6165347
+ 643858 words of memory out of 5000000
  23577 multiletter control sequences out of 15000+600000
  77422 words of font info for 163 fonts, out of 8000000 for 9000
  378 hyphenation exceptions out of 8191
@@ -1659,10 +1655,10 @@ re/texlive/texmf-dist/fonts/type1/urw/times/utmb8a.pfb></usr/share/texlive/texm
 f-dist/fonts/type1/urw/times/utmbi8a.pfb></usr/share/texlive/texmf-dist/fonts/t
 ype1/urw/times/utmr8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/
 utmri8a.pfb>
-Output written on Report.pdf (21 pages, 176867 bytes).
+Output written on Report.pdf (21 pages, 176951 bytes).
 PDF statistics:
- 344 PDF objects out of 1000 (max. 8388607)
- 301 compressed objects within 4 object streams
- 107 named destinations out of 1000 (max. 500000)
+ 346 PDF objects out of 1000 (max. 8388607)
+ 303 compressed objects within 4 object streams
+ 108 named destinations out of 1000 (max. 500000)
  120 words of extra memory for PDF output out of 10000 (max. 10000000)
 
