@@ -1,8 +1,4 @@
-<<<<<<< HEAD
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=latex 2015.9.9)  30 SEP 2015 14:40
-=======
-This is pdfTeX, Version 3.1415926-2.4-1.40.13 (MiKTeX 2.9 64-bit) (preloaded format=latex 2013.8.26)  29 SEP 2015 19:02
->>>>>>> 2db21eaba795c9392bcc100f012327a8ff147f58
+This is pdfTeX, Version 3.1415926-2.4-1.40.13 (MiKTeX 2.9 64-bit) (preloaded format=latex 2013.8.26)  30 SEP 2015 16:57
 entering extended mode
 **\let \APPmakepictures \empty \input  Report.tex
 (C:\Users\Birgitte\Documents\GitHub\Project2\Report\LaTeX\Report.tex (C:\Users\
@@ -1378,19 +1374,45 @@ Missing character: There is no ô in font ptmr7t!
 Missing character: There is no ‚ in font ptmr7t!
 Missing character: There is no Ä in font ptmr7t!
 Missing character: There is no ô in font ptmr7t!
-Missing character: There is no œ in font ptmr7t!
-Missing character: There is no Å in font ptmr7t!
+
+LaTeX Warning: Reference `eq:NatureOfTheProblem2' on page 3 undefined on input 
+line 19.
+
+
+LaTeX Warning: Reference `eq:NatureOfTheProblem3' on page 3 undefined on input 
+line 24.
+
+
+LaTeX Warning: Reference `eq:NatureOfTheProblem2' on page 3 undefined on input 
+line 30.
+
+
+LaTeX Warning: Reference `eq:NatureOfTheProblem2' on page 4 undefined on input 
+line 47.
+
+
+LaTeX Warning: Reference `eq:NatureOfTheProblem3' on page 4 undefined on input 
+line 47.
+
+
+LaTeX Warning: Reference `eq:NatureOfTheProblem5' on page 4 undefined on input 
+line 63.
+
+
+LaTeX Warning: Reference `eq:NatureOfTheProblem6' on page 4 undefined on input 
+line 73.
+
 )
 (C:\Users\Birgitte\Documents\GitHub\Project2\Report\LaTeX\Chapters/DescriptionO
 fTheAlgorithm.tex)
 (C:\Users\Birgitte\Documents\GitHub\Project2\Report\LaTeX\Chapters/MatrixElemen
 tChange.tex
 
-LaTeX Warning: Reference `eq:similarityTransf1' on page 4 undefined on input li
+LaTeX Warning: Reference `eq:similarityTransf1' on page 5 undefined on input li
 ne 18.
 
 
-LaTeX Warning: Reference `eq:similarityTransf1' on page 4 undefined on input li
+LaTeX Warning: Reference `eq:similarityTransf1' on page 5 undefined on input li
 ne 32.
 
 
@@ -1402,22 +1424,43 @@ LaTeX Warning: Reference `eq:MatrixElements4' on page 5 undefined on input line
  58.
 
 
-LaTeX Warning: Reference `eq:MatrixElements4' on page 5 undefined on input line
+LaTeX Warning: Reference `eq:MatrixElements4' on page 6 undefined on input line
  72.
 
 )
 (C:\Users\Birgitte\Documents\GitHub\Project2\Report\LaTeX\Chapters/ReductionofN
 orm.tex
 
-LaTeX Warning: Reference `eq:normA' on page 5 undefined on input line 5.
+LaTeX Warning: Reference `eq:normA' on page 6 undefined on input line 5.
 
 
 LaTeX Warning: Reference `eq:maxa' on page 6 undefined on input line 13.
 
+) (C:\Users\Birgitte\Documents\GitHub\Project2\Report\LaTeX\Chapters/Tests.tex)
+
+(C:\Users\Birgitte\Documents\GitHub\Project2\Report\LaTeX\Chapters/test_find_ma
+x.tex
+LaTeX Font Info:    Font shape `OT1/ptm/bx/it' in size <12> not available
+(Font)              Font shape `OT1/ptm/b/it' tried instead on input line 1.
+
+LaTeX Warning: Reference `eq:test_find_max1' on page 8 undefined on input line 
+48.
+
+)
+(C:\Users\Birgitte\Documents\GitHub\Project2\Report\LaTeX\Chapters/simplecase.t
+ex
+
+LaTeX Warning: Reference `eq:MatrixElements2' on page 8 undefined on input line
+ 26.
+
+
+LaTeX Warning: Reference `eq:similarityTransf1' on page 8 undefined on input li
+ne 42.
+
 ) (C:\Users\Birgitte\Documents\GitHub\Project2\Report\LaTeX\Chapters/Results.te
 x
 
-LaTeX Warning: Reference `chap:method' on page 7 undefined on input line 5.
+LaTeX Warning: Reference `chap:method' on page 11 undefined on input line 5.
 
 )
 (C:\Users\Birgitte\Documents\GitHub\Project2\Report\LaTeX\Chapters/Interpretati
@@ -1428,20 +1471,32 @@ Missing character: There is no √ in font ptmr7t!
 Missing character: There is no ∂ in font ptmr7t!
 LaTeX Font Info:    Font shape `OT1/ptm/bx/it' in size <10> not available
 (Font)              Font shape `OT1/ptm/b/it' tried instead on input line 23.
-<<<<<<< HEAD
-) (./Chapters/DependenceOnNumberOfIterations.tex) (./Chapters/Coulumbpotential.
-tex
-
-LaTeX Warning: Reference `tab:rhomax' on page 8 undefined on input line 31.
-
-) (./Chapters/Conclusion.tex)
-=======
 )
 (C:\Users\Birgitte\Documents\GitHub\Project2\Report\LaTeX\Chapters/DependenceOn
 NumberOfIterations.tex)
+(C:\Users\Birgitte\Documents\GitHub\Project2\Report\LaTeX\Chapters/CompTime.tex
+
+LaTeX Warning: Reference `eq:NatureOfTheProblem5' on page 13 undefined on input
+ line 13.
+
+
+LaTeX Warning: Reference `eq:NatureOfTheProblem6' on page 13 undefined on input
+ line 13.
+
+)
+(C:\Users\Birgitte\Documents\GitHub\Project2\Report\LaTeX\Chapters/Coulumbpoten
+tial.tex
+Underfull \hbox (badness 10000) in paragraph at lines 6--29
+\OT1/ptm/m/n/10.95 value of $\OML/ztmcm/m/it/10.95 []$ \OT1/ptm/m/n/10.95 so t
+hat the eigen-val-ues are sta-ble is the first step. [][]
+ []
+
+
+LaTeX Warning: Reference `tab:rhomax' on page 13 undefined on input line 31.
+
+)
 (C:\Users\Birgitte\Documents\GitHub\Project2\Report\LaTeX\Chapters/Conclusion.t
 ex)
->>>>>>> 2db21eaba795c9392bcc100f012327a8ff147f58
 No file Report-autopp.bbl.
 
 (C:\Users\Birgitte\Documents\GitHub\Project2\Report\LaTeX\Chapters/Appendix/Mat
@@ -1451,32 +1506,22 @@ File: lstlang1.sty 2015/06/04 1.6 listings language file
 
 Package pst-pdf Warning: Picture container needs cropping..
 
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 40.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 40.
-Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 40.
-Package atveryend Info: Empty hook `AtEndAfterFileList' on input line 40.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 44.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 44.
+Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 44.
+Package atveryend Info: Empty hook `AtEndAfterFileList' on input line 44.
 
 LaTeX Warning: There were undefined references.
 
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 40.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 44.
  ) 
 Here is how much of TeX's memory you used:
-<<<<<<< HEAD
- 20331 strings out of 494425
- 304984 string characters out of 6165373
- 635746 words of memory out of 5000000
- 23157 multiletter control sequences out of 15000+600000
- 43768 words of font info for 118 fonts, out of 8000000 for 9000
- 378 hyphenation exceptions out of 8191
- 57i,19n,97p,829b,1520s stack positions out of 5000i,500n,10000p,200000b,80000s
-=======
- 20187 strings out of 493922
- 304728 string characters out of 3147296
- 629375 words of memory out of 3000000
- 23051 multiletter control sequences out of 15000+200000
- 43768 words of font info for 118 fonts, out of 3000000 for 9000
+ 20243 strings out of 493922
+ 306308 string characters out of 3147296
+ 635475 words of memory out of 3000000
+ 23089 multiletter control sequences out of 15000+200000
+ 44301 words of font info for 119 fonts, out of 3000000 for 9000
  847 hyphenation exceptions out of 8191
- 57i,19n,97p,620b,1520s stack positions out of 5000i,500n,10000p,200000b,50000s
->>>>>>> 2db21eaba795c9392bcc100f012327a8ff147f58
+ 57i,19n,97p,803b,1520s stack positions out of 5000i,500n,10000p,200000b,50000s
 
 No pages of output.
