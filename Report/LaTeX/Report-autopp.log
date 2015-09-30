@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=latex 2015.9.9)  29 SEP 2015 17:30
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=latex 2015.9.9)  30 SEP 2015 14:40
 entering extended mode
  %&-line parsing enabled.
 **\let \APPmakepictures \empty \input  Report.tex
@@ -1401,7 +1401,12 @@ Missing character: There is no Ã in font ptmr7t!
 Missing character: There is no ¶ in font ptmr7t!
 LaTeX Font Info:    Font shape `OT1/ptm/bx/it' in size <10> not available
 (Font)              Font shape `OT1/ptm/b/it' tried instead on input line 23.
-) (./Chapters/DependenceOnNumberOfIterations.tex) (./Chapters/Conclusion.tex)
+) (./Chapters/DependenceOnNumberOfIterations.tex) (./Chapters/Coulumbpotential.
+tex
+
+LaTeX Warning: Reference `tab:rhomax' on page 8 undefined on input line 31.
+
+) (./Chapters/Conclusion.tex)
 No file Report-autopp.bbl.
 (./Chapters/Appendix/MatLabSolution.tex (/usr/share/texlive/texmf-dist/tex/late
 x/listings/lstlang1.sty
@@ -1410,22 +1415,22 @@ File: lstlang1.sty 2013/08/26 1.5b listings language file
 
 Package pst-pdf Warning: Picture container needs cropping..
 
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 39.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 39.
-Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 39.
-Package atveryend Info: Empty hook `AtEndAfterFileList' on input line 39.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 40.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 40.
+Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 40.
+Package atveryend Info: Empty hook `AtEndAfterFileList' on input line 40.
 
 LaTeX Warning: There were undefined references.
 
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 39.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 40.
  ) 
 Here is how much of TeX's memory you used:
- 20324 strings out of 494425
- 304820 string characters out of 6165373
- 635662 words of memory out of 5000000
- 23153 multiletter control sequences out of 15000+600000
+ 20331 strings out of 494425
+ 304984 string characters out of 6165373
+ 635746 words of memory out of 5000000
+ 23157 multiletter control sequences out of 15000+600000
  43768 words of font info for 118 fonts, out of 8000000 for 9000
  378 hyphenation exceptions out of 8191
- 57i,19n,97p,619b,1520s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 57i,19n,97p,829b,1520s stack positions out of 5000i,500n,10000p,200000b,80000s
 
 No pages of output.

@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2015.9.9)  29 SEP 2015 17:30
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2015.9.9)  30 SEP 2015 14:40
 entering extended mode
  \write18 enabled.
  %&-line parsing enabled.
@@ -1599,8 +1599,8 @@ Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 (hyperref)                removing `math shift' on input line 1.
 
-) (./Chapters/Conclusion.tex [9 <./Figures/MatrixSizeOnEigenvalue_2state.png (P
-NG copy)>] [10
+) (./Chapters/Coulumbpotential.tex) (./Chapters/Conclusion.tex [9 <./Figures/Ma
+trixSizeOnEigenvalue_2state.png (PNG copy)>] [10
 
 ]) (./Report.bbl [11] [12
 
@@ -1618,14 +1618,14 @@ File: lstlang1.sty 2013/08/26 1.5b listings language file
 \tf@toc=\write6
 \openout6 = `Report.toc'.
 
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 39.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 39.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 40.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 40.
 
 (./Report.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 39.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 39.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 40.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 40.
 Package rerunfilecheck Info: File `Report.out' has not changed.
-(rerunfilecheck)             Checksum: D9CDF73C1C0BD54E8071FAEBFDAA5CE9;836.
+(rerunfilecheck)             Checksum: 18ED300F2AB03D45A1F1881416126264;836.
 
 
 LaTeX Warning: There were undefined references.
@@ -1633,16 +1633,16 @@ LaTeX Warning: There were undefined references.
 
 LaTeX Warning: There were multiply-defined labels.
 
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 39.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 40.
  ) 
 Here is how much of TeX's memory you used:
- 20927 strings out of 494424
- 313095 string characters out of 6165347
- 643858 words of memory out of 5000000
- 23577 multiletter control sequences out of 15000+600000
+ 20939 strings out of 494424
+ 313314 string characters out of 6165347
+ 643986 words of memory out of 5000000
+ 23581 multiletter control sequences out of 15000+600000
  77422 words of font info for 163 fonts, out of 8000000 for 9000
  378 hyphenation exceptions out of 8191
- 57i,19n,97p,582b,1533s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 57i,19n,97p,792b,1533s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/share/texlive/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/share/texliv
 e/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/share/texlive/texm
 f-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/share/texlive/texmf-dist
@@ -1655,10 +1655,10 @@ re/texlive/texmf-dist/fonts/type1/urw/times/utmb8a.pfb></usr/share/texlive/texm
 f-dist/fonts/type1/urw/times/utmbi8a.pfb></usr/share/texlive/texmf-dist/fonts/t
 ype1/urw/times/utmr8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/
 utmri8a.pfb>
-Output written on Report.pdf (21 pages, 176951 bytes).
+Output written on Report.pdf (21 pages, 179395 bytes).
 PDF statistics:
- 346 PDF objects out of 1000 (max. 8388607)
- 303 compressed objects within 4 object streams
- 108 named destinations out of 1000 (max. 500000)
+ 357 PDF objects out of 1000 (max. 8388607)
+ 314 compressed objects within 4 object streams
+ 113 named destinations out of 1000 (max. 500000)
  120 words of extra memory for PDF output out of 10000 (max. 10000000)
 
