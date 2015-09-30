@@ -1,8 +1,4 @@
-<<<<<<< HEAD
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2015.9.9)  30 SEP 2015 14:40
-=======
-This is pdfTeX, Version 3.1415926-2.4-1.40.13 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2013.8.26)  29 SEP 2015 19:02
->>>>>>> 2db21eaba795c9392bcc100f012327a8ff147f58
+This is pdfTeX, Version 3.1415926-2.4-1.40.13 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2013.8.26)  30 SEP 2015 16:57
 entering extended mode
 **Report.tex
 (C:\Users\Birgitte\Documents\GitHub\Project2\Report\LaTeX\Report.tex
@@ -1434,7 +1430,7 @@ LaTeX Info: Redefining \Ref on input line 4.
 ntpage.tex
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <17.28> not available
 (Font)              Font shape `OT1/ptm/b/n' tried instead on input line 15.
- <Figures/UiO_Seal_A_ENG.png, id=55, 566.5968pt x 95.8782pt>
+ <Figures/UiO_Seal_A_ENG.png, id=71, 566.5968pt x 95.8782pt>
 File: Figures/UiO_Seal_A_ENG.png Graphic file (type png)
 
 <use Figures/UiO_Seal_A_ENG.png>
@@ -1536,11 +1532,9 @@ Missing character: There is no ô in font ptmr7t!
 Missing character: There is no ‚ in font ptmr7t!
 Missing character: There is no Ä in font ptmr7t!
 Missing character: There is no ô in font ptmr7t!
-Missing character: There is no œ in font ptmr7t!
-Missing character: There is no Å in font ptmr7t!
-)
+ [3])
 (C:\Users\Birgitte\Documents\GitHub\Project2\Report\LaTeX\Chapters/DescriptionO
-fTheAlgorithm.tex [3])
+fTheAlgorithm.tex)
 (C:\Users\Birgitte\Documents\GitHub\Project2\Report\LaTeX\Chapters/MatrixElemen
 tChange.tex
 
@@ -1555,11 +1549,34 @@ Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 (hyperref)                removing `math shift' on input line 1.
 
-[4])
+[4] [5])
 (C:\Users\Birgitte\Documents\GitHub\Project2\Report\LaTeX\Chapters/ReductionofN
-orm.tex [5])
+orm.tex [6])
+(C:\Users\Birgitte\Documents\GitHub\Project2\Report\LaTeX\Chapters/Tests.tex)
+(C:\Users\Birgitte\Documents\GitHub\Project2\Report\LaTeX\Chapters/test_find_ma
+x.tex
+LaTeX Font Info:    Font shape `OT1/ptm/bx/it' in size <12> not available
+(Font)              Font shape `OT1/ptm/b/it' tried instead on input line 1.
+ [7])
+(C:\Users\Birgitte\Documents\GitHub\Project2\Report\LaTeX\Chapters/simplecase.t
+ex
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `math shift' on input line 1.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\times' on input line 1.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `math shift' on input line 1.
+
+[8])
 (C:\Users\Birgitte\Documents\GitHub\Project2\Report\LaTeX\Chapters/Results.tex
-[6])
+[9] [10
+
+])
 (C:\Users\Birgitte\Documents\GitHub\Project2\Report\LaTeX\Chapters/Interpretati
 onOfResults.tex)
 (C:\Users\Birgitte\Documents\GitHub\Project2\Report\LaTeX\Chapters/DependenceOn
@@ -1590,7 +1607,7 @@ Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 
 Missing character: There is no √ in font ptmr7t!
 Missing character: There is no ∂ in font ptmr7t!
-<Figures/rho_maxOnEigenvalue.png, id=196, 422.32782pt x 316.18124pt>
+<Figures/rho_maxOnEigenvalue.png, id=273, 422.32782pt x 316.18124pt>
 File: Figures/rho_maxOnEigenvalue.png Graphic file (type png)
 
 <use Figures/rho_maxOnEigenvalue.png>
@@ -1599,18 +1616,16 @@ Package pdftex.def Info: Figures/rho_maxOnEigenvalue.png used on input line 22.
 (pdftex.def)             Requested size: 345.70125pt x 258.82161pt.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/it' in size <10> not available
 (Font)              Font shape `OT1/ptm/b/it' tried instead on input line 23.
- [7
-
-]
-<Figures/MatrixSizeOnEigenvalue_2state.png, id=212, 422.32782pt x 316.18124pt>
+ [11]
+<Figures/MatrixSizeOnEigenvalue_2state.png, id=288, 422.32782pt x 316.18124pt>
 File: Figures/MatrixSizeOnEigenvalue_2state.png Graphic file (type png)
 
 <use Figures/MatrixSizeOnEigenvalue_2state.png>
 Package pdftex.def Info: Figures/MatrixSizeOnEigenvalue_2state.png used on inpu
 t line 37.
 (pdftex.def)             Requested size: 345.70125pt x 258.82161pt.
- [8 <C:/Users/Birgitte/Documents/GitHub/Project2/Report/LaTeX/Figures/rho_maxOn
-Eigenvalue.png (PNG copy)>])
+ [12 <C:/Users/Birgitte/Documents/GitHub/Project2/Report/LaTeX/Figures/rho_maxO
+nEigenvalue.png (PNG copy)>])
 (C:\Users\Birgitte\Documents\GitHub\Project2\Report\LaTeX\Chapters/DependenceOn
 NumberOfIterations.tex
 
@@ -1621,19 +1636,40 @@ Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 (hyperref)                removing `math shift' on input line 1.
 
-<<<<<<< HEAD
-) (./Chapters/Coulumbpotential.tex) (./Chapters/Conclusion.tex [9 <./Figures/Ma
-trixSizeOnEigenvalue_2state.png (PNG copy)>] [10
-=======
+<figures/NumberOfIterations.png, id=299, 422.32782pt x 316.18124pt>
+File: figures/NumberOfIterations.png Graphic file (type png)
+
+<use figures/NumberOfIterations.png>
+Package pdftex.def Info: figures/NumberOfIterations.png used on input line 10.
+(pdftex.def)             Requested size: 230.4675pt x 172.54453pt.
+
+<figures/NumberOfIterationsloglog.png, id=300, 422.32782pt x 316.18124pt>
+File: figures/NumberOfIterationsloglog.png Graphic file (type png)
+
+<use figures/NumberOfIterationsloglog.png>
+Package pdftex.def Info: figures/NumberOfIterationsloglog.png used on input lin
+e 14.
+(pdftex.def)             Requested size: 230.4675pt x 172.54453pt.
+)
+(C:\Users\Birgitte\Documents\GitHub\Project2\Report\LaTeX\Chapters/CompTime.tex
+[13 <C:/Users/Birgitte/Documents/GitHub/Project2/Report/LaTeX/Figures/MatrixSiz
+eOnEigenvalue_2state.png (PNG copy)> <C:/Users/Birgitte/Documents/GitHub/Projec
+t2/Report/LaTeX/figures/NumberOfIterations.png (PNG copy)> <C:/Users/Birgitte/D
+ocuments/GitHub/Project2/Report/LaTeX/figures/NumberOfIterationsloglog.png (PNG
+ copy)>])
+(C:\Users\Birgitte\Documents\GitHub\Project2\Report\LaTeX\Chapters/Coulumbpoten
+tial.tex
+Underfull \hbox (badness 10000) in paragraph at lines 6--29
+\OT1/ptm/m/n/10.95 value of $\OML/ztmcm/m/it/10.95 []$ \OT1/ptm/m/n/10.95 so t
+hat the eigen-val-ues are sta-ble is the first step. [][][][]
+ []
+
 )
 (C:\Users\Birgitte\Documents\GitHub\Project2\Report\LaTeX\Chapters/Conclusion.t
-ex [9 <C:/Users/Birgitte/Documents/GitHub/Project2/Report/LaTeX/Figures/MatrixS
-izeOnEigenvalue_2state.png (PNG copy)>] [10
->>>>>>> 2db21eaba795c9392bcc100f012327a8ff147f58
+ex [14]) (C:\Users\Birgitte\Documents\GitHub\Project2\Report\LaTeX\Report.bbl
+[15
 
-])
-(C:\Users\Birgitte\Documents\GitHub\Project2\Report\LaTeX\Report.bbl [11]
-[12
+] [16
 
 ]
 bibitemlist
@@ -1642,34 +1678,21 @@ LaTeX Warning: Empty `thebibliography' environment on input line 3.
 
 )
 (C:\Users\Birgitte\Documents\GitHub\Project2\Report\LaTeX\Chapters/Appendix/Mat
-LabSolution.tex [13] [14
+LabSolution.tex [17] [18
 
 ]
 ("C:\Program Files\MiKTeX 2.9\tex\latex\listings\lstlang1.sty"
 File: lstlang1.sty 2015/06/04 1.6 listings language file
-)) [15]
+)) [19]
 \tf@toc=\write6
-<<<<<<< HEAD
-\openout6 = `Report.toc'.
-
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 40.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 40.
-
-(./Report.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 40.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 40.
-Package rerunfilecheck Info: File `Report.out' has not changed.
-(rerunfilecheck)             Checksum: 18ED300F2AB03D45A1F1881416126264;836.
-=======
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 39.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 39.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 44.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 44.
 
 (C:\Users\Birgitte\Documents\GitHub\Project2\Report\LaTeX\Report.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 39.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 39.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 44.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 44.
 Package rerunfilecheck Info: File `Report.out' has not changed.
-(rerunfilecheck)             Checksum: 40DAFF3B31712AB8980B3471CE5FBC06;849.
->>>>>>> 2db21eaba795c9392bcc100f012327a8ff147f58
+(rerunfilecheck)             Checksum: 034E8721D631BB30275A4FB32EAD7886;1180.
 
 
 LaTeX Warning: There were undefined references.
@@ -1677,42 +1700,16 @@ LaTeX Warning: There were undefined references.
 
 LaTeX Warning: There were multiply-defined labels.
 
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 40.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 44.
  ) 
 Here is how much of TeX's memory you used:
-<<<<<<< HEAD
- 20939 strings out of 494424
- 313314 string characters out of 6165347
- 643986 words of memory out of 5000000
- 23581 multiletter control sequences out of 15000+600000
- 77422 words of font info for 163 fonts, out of 8000000 for 9000
- 378 hyphenation exceptions out of 8191
- 57i,19n,97p,792b,1533s stack positions out of 5000i,500n,10000p,200000b,80000s
-{/usr/share/texlive/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/share/texliv
-e/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/share/texlive/texm
-f-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/share/texlive/texmf-dist
-/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texlive/texmf-dist/fonts/
-type1/public/amsfonts/cm/cmss9.pfb></usr/share/texlive/texmf-dist/fonts/type1/p
-ublic/amsfonts/cm/cmsy10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/
-amsfonts/cm/cmtt10.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/symbol/us
-yr.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/symbol/usyr.pfb></usr/sha
-re/texlive/texmf-dist/fonts/type1/urw/times/utmb8a.pfb></usr/share/texlive/texm
-f-dist/fonts/type1/urw/times/utmbi8a.pfb></usr/share/texlive/texmf-dist/fonts/t
-ype1/urw/times/utmr8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/
-utmri8a.pfb>
-Output written on Report.pdf (21 pages, 179395 bytes).
-PDF statistics:
- 357 PDF objects out of 1000 (max. 8388607)
- 314 compressed objects within 4 object streams
- 113 named destinations out of 1000 (max. 500000)
-=======
- 20778 strings out of 493921
- 313341 string characters out of 3147273
- 637494 words of memory out of 3000000
- 23467 multiletter control sequences out of 15000+200000
- 77422 words of font info for 163 fonts, out of 3000000 for 9000
+ 20907 strings out of 493921
+ 316115 string characters out of 3147273
+ 645632 words of memory out of 3000000
+ 23524 multiletter control sequences out of 15000+200000
+ 81811 words of font info for 172 fonts, out of 3000000 for 9000
  847 hyphenation exceptions out of 8191
- 57i,19n,97p,583b,1533s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 57i,19n,97p,766b,1533s stack positions out of 5000i,500n,10000p,200000b,50000s
 {C:/Program Files/MiKTeX 2.9/fonts/enc/dvips/fontname/8r.enc}<C:/Program File
 s/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmex10.pfb><C:/Program Files/MiKTeX
  2.9/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Program Files/MiKTeX 2.9/fon
@@ -1724,10 +1721,9 @@ rogram Files/MiKTeX 2.9/fonts/type1/urw/symbol/usyr.pfb><C:/Program Files/MiKTe
 X 2.9/fonts/type1/urw/times/utmb8a.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1
 /urw/times/utmbi8a.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/urw/times/utmr8
 a.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/urw/times/utmri8a.pfb>
-Output written on Report.pdf (21 pages, 210168 bytes).
+Output written on Report.pdf (25 pages, 249214 bytes).
 PDF statistics:
- 341 PDF objects out of 1000 (max. 8388607)
- 108 named destinations out of 1000 (max. 500000)
->>>>>>> 2db21eaba795c9392bcc100f012327a8ff147f58
- 120 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 447 PDF objects out of 1000 (max. 8388607)
+ 154 named destinations out of 1000 (max. 500000)
+ 162 words of extra memory for PDF output out of 10000 (max. 10000000)
 

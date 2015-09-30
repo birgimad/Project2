@@ -1,0 +1,62 @@
+\subsection{Testing against simple $2\times 2$ case}
+\label{subsec:simplecase}
+To check that the Jacobi function runs correctly, consider the case with matrix dimensionality $2\times 2$ case with $\rho_{min} = 0$ and $\rho_{max} = 6$, yielding a step length of
+\begin{align*}
+	h = \frac{\rho_{max}-\rho_{min}}{n+1} = \frac{6-0}{3} = 2
+\end{align*}
+With the potential described by $\rho^2$, this case gives that the matrix $\v{A}$, for which the eigenvalue problem is solved, takes the form
+\begin{align*}
+	\v{A} =
+	\left(
+	\begin{array}{cc}
+		\frac{2}{2^2}+2^2	& 	-\frac{1}{2^2}
+		\\
+		-\frac{1}{2^2}		&	\frac{2}{2^2}+4^2
+	\end{array}
+	\right)
+	=
+	\left(
+	\begin{array}{cc}
+		4.5	& 	-0.25
+		\\
+		-0.25		&	16.5
+	\end{array}
+	\right)
+\end{align*}
+The entrance with the greatest absolute value of the off diagonal element is the $a_{12} = a_{21}$, which means that $\tau$ introduced in \matref{eq:MatrixElements2} 
+\begin{align*}
+	\tau = -\frac{16.5-4.5}{2\cdot 0.25} = -24
+\end{align*}
+and hence
+\begin{align*}
+	\tan\theta = 24 - \sqrt{1+24^2} \approx -0.0208
+\end{align*}
+which yields that
+\begin{align}
+	\cos\theta = \frac{1}{\sqrt(1+48^2} \approx  0.9998
+	\qquad
+	\text{and}
+	\qquad
+	\sin\theta = -0.0208\cdot 0.9998 \approx -0.0208
+\end{align}
+From the values for $\cos\theta$ and $\sin\theta$, the diagonal elements of the constructed matrix $\v{B}$ after one similarity transformation described in \matref{eq:similarityTransf1} take the form
+\begin{align*}
+ 	b_{11} \approx 4.5\cdot 0.9998^2 - 2\cdot 0.25 \cdot 0.0208 \cdot 0.9998 + 16.5\cdot 0.0208^2 \approx 4.495
+ 	\\
+ 	b_{22} \approx 16.5\cdot 0.9998^2 + 2\cdot 0.25 \cdot 0.0208 \cdot 0.9998 + 4.5\cdot 0.0208^2 \approx 16.51
+\end{align*}
+giving
+\begin{align*}
+	\v{B}
+	\approx
+	\left(
+	\begin{array}{cc}
+		4.495	&	0
+		\\
+		0	&	16.51
+	\end{array}
+	\right)
+\end{align*}  
+Which means that the first and second eigenvalues are $4.495$ and $16.51$, respectively.
+When running the computed Jacobi function for this $2\times 2$ example, this is exactly what is gained.
+\fxnote{ref. to result}

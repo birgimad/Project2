@@ -1,0 +1,58 @@
+\subsection{Test of the \textit{find\_ max} function}
+\label{subsec:test_find_max}
+To find the maximum absolute value of the elements of the matrix for which we want to solve the eigenvalue problem using the Jacobi method, the following c++ source code is used.
+\begin{lstlisting}
+void find_max(mat &A, int &n, int &row_number, int &column_number)
+// Set row_number = 0 and column_number = 1, when running the code. 
+// These are the initial guesses for max(A(i,j))
+{
+        double max = A(0,1);
+        for (int i=0; i<n; i++)
+        {
+            for (int j=i+1; j<n; j++)
+            {
+            if (fabs(A(i,j)) > fabs(max))
+            {
+                max = A(i,j);
+                row_number = i;
+                column_number = j;
+            }
+            }
+        }
+        return;
+}
+\end{lstlisting}
+The programmed function \textit{find\_max} finds the entrance with the maximal absolute value amongst the entrances above the diagonal. 
+The initial guess of the maximum absolute value of the off diagonal elements is set to $a_{12}$ (notice that the first row/column of the matrix in the code is $0$, whilst it is $1$ in the text).
+The two for loops then run through all the elements above the diagonal, and if the absolute value of that element is greater than the absolute value of the until then computed maximal value, the new value \textit{max} is set equal to the value of that entrance.
+Since the matrix $\v{A}$ for this project is symmetric, it is not necessary to run through the elements below the diagonal.
+
+To check that the \textit{find\_max} function runs as expected, a random matrix $\v{A}$, with the maximum absolute value above the diagonal being $a_{25} = 6$, is considered.
+\begin{align}
+	\v{A} =
+	\left(
+	\begin{array}{ccccc}
+	1 & 2 & 3 & 4 & 5
+	\\
+	2 & 3 & 4 & 5 & 6
+	\\
+	0 & -1 & -2 & -3 & -4
+	\\
+	0 & -3 & -6 & -9 & 0
+	\\
+	-1 & 0 & 1 & 2 & 3
+	\end{array}
+	\right)
+	\label{eq:test_find_max1}
+\end{align}
+When running the function for the matrix $\v{A}$ in \matref{eq:test_find_max1} and an initial guess that the greatest absolute value can be found as the element $a_{12} = 2$, the function outputs the maximum value:
+\begin{align*}
+	&\text{max value} = 6
+	\\
+	&\text{row number} = 2
+	\\
+	&\text{column number} = 5
+\end{align*}
+which is exactly what was expected when considering the investigated matrix.
+When running the function for $-\v{A}$ the element with the greatest absolute value is once again found to be $a_{25}$.
+In this case the element has a value of $a_{25} = -6 $, which was to be expected.
