@@ -103,8 +103,8 @@ int main()
 {
     double rho_min = 0;
     double rho_max = 10;
-    double epsilon;
-    epsilon = 1.0e-8;
+    //double epsilon;
+    //epsilon = 1.0e-8;
     int n;
     cout << "Please enter value of n:\n>";
     cin >> n;
@@ -114,7 +114,7 @@ int main()
 
     double h = (rho_max - rho_min)/(n+1); //step length
 
-    double w = 5.0;
+    double w = 0.01;
 
 
     vec V(n);
@@ -143,6 +143,7 @@ int main()
         A(i,i+1) = off_diagonal;
     }
 
+    /*
     Jacobi(A,n,epsilon);
 
     vec eigen_values(n);
@@ -188,6 +189,33 @@ int main()
     cout << "min1 = " << min1 << endl;
     cout << "min2 = " << min2 << endl;
     cout << "min3 = " << min3 << endl;
+    */
+
+
+
+    vec eigval;
+    mat eigvec;
+
+    eig_sym(eigval, eigvec, A);
+
+    ofstream myfile ("wave_omega0_01.txt");
+        if (myfile.is_open())
+        {
+            myfile << "omega = "<< w << setw(10)<< "n = "<< n << setw(20) << "eigen value = " << eigval(0) <<endl;
+            myfile << "rho" << setw(20) << "eigvec" << endl;
+            for(int i = 0; i<n ; i++){
+            myfile << (i+1)*h << setw(20) << eigvec(i,0) << endl;
+            }
+
+        }
+    cout << eigval(0) <<endl;
+    cout << "rho" << setw(10) << "eigvec" << endl;
+    for(int i = 0; i<n ; i++){
+    cout << (i+1)*h << setw(20) << eigvec(i,0) << endl;
+    }
+
+
+
 
     return 0;
 }
