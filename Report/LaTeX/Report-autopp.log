@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.4-1.40.13 (MiKTeX 2.9 64-bit) (preloaded format=latex 2013.8.26)  30 SEP 2015 16:57
+This is pdfTeX, Version 3.1415926-2.4-1.40.13 (MiKTeX 2.9 64-bit) (preloaded format=latex 2013.8.26)  30 SEP 2015 17:36
 entering extended mode
 **\let \APPmakepictures \empty \input  Report.tex
 (C:\Users\Birgitte\Documents\GitHub\Project2\Report\LaTeX\Report.tex (C:\Users\
@@ -1516,9 +1516,9 @@ LaTeX Warning: There were undefined references.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 44.
  ) 
 Here is how much of TeX's memory you used:
- 20243 strings out of 493922
- 306308 string characters out of 3147296
- 635475 words of memory out of 3000000
+ 20244 strings out of 493922
+ 306321 string characters out of 3147296
+ 635466 words of memory out of 3000000
  23089 multiletter control sequences out of 15000+200000
  44301 words of font info for 119 fonts, out of 3000000 for 9000
  847 hyphenation exceptions out of 8191
