@@ -1,11 +1,7 @@
-QT += core
-QT -= gui
-
-TARGET = Project2
+TEMPLATE = app
 CONFIG += console
 CONFIG -= app_bundle
-
-TEMPLATE = app
+CONFIG -= qt
 
 SOURCES += main.cpp
 
