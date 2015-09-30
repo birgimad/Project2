@@ -114,13 +114,13 @@ int main()
 
     double h = (rho_max - rho_min)/(n+1); //step length
 
-    double w = 0.01;
+    double w = 5.0;
 
 
     vec V(n);
     for (int i = 0; i < n; i++)
     {
-        V(i) = pow(rho_min + (i+1)*h,2)*pow(w,2) ;    //V(0) = V_1 = (rho_min + 1*h)^2 etc. + 1/(rho_min +(i+1)*h
+        V(i) = pow(rho_min + (i+1)*h,2)*pow(w,2) + 1/(rho_min +(i+1)*h);    //V(0) = V_1 = (rho_min + 1*h)^2 etc.
     }
 
     mat A(n,n);
