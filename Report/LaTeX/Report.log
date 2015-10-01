@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.4-1.40.13 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2013.8.26)  30 SEP 2015 17:36
+This is pdfTeX, Version 3.1415926-2.4-1.40.13 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2013.8.26)  1 OCT 2015 17:12
 entering extended mode
 **Report.tex
 (C:\Users\Birgitte\Documents\GitHub\Project2\Report\LaTeX\Report.tex
@@ -1321,14 +1321,7 @@ Package: geometry 2010/09/12 v5.6 Page Geometry
 \Gm@dimlist=\toks52
 
 ("C:\Program Files\MiKTeX 2.9\tex\latex\geometry\geometry.cfg")))
-(C:\Users\Birgitte\Documents\GitHub\Project2\Report\LaTeX\Report.aux
-
-LaTeX Warning: Label `eq:MatrixElements4' multiply defined.
-
-
-LaTeX Warning: Label `eq:MatrixElements4' multiply defined.
-
-)
+(C:\Users\Birgitte\Documents\GitHub\Project2\Report\LaTeX\Report.aux)
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 4.
 LaTeX Font Info:    ... okay on input line 4.
 LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 4.
@@ -1346,7 +1339,8 @@ LaTeX Font Info:    ... okay on input line 4.
 LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 4.
 LaTeX Font Info:    ... okay on input line 4.
 LaTeX Font Info:    Try loading font information for OT1+ptm on input line 4.
- ("C:\Program Files\MiKTeX 2.9\tex\latex\psnfss\ot1ptm.fd"
+
+("C:\Program Files\MiKTeX 2.9\tex\latex\psnfss\ot1ptm.fd"
 File: ot1ptm.fd 2001/06/04 font definitions for OT1/ptm.
 )
 ("C:\Program Files\MiKTeX 2.9\tex\context\base\supp-pdf.mkii"
@@ -1430,7 +1424,7 @@ LaTeX Info: Redefining \Ref on input line 4.
 ntpage.tex
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <17.28> not available
 (Font)              Font shape `OT1/ptm/b/n' tried instead on input line 15.
- <Figures/UiO_Seal_A_ENG.png, id=71, 566.5968pt x 95.8782pt>
+ <Figures/UiO_Seal_A_ENG.png, id=67, 566.5968pt x 95.8782pt>
 File: Figures/UiO_Seal_A_ENG.png Graphic file (type png)
 
 <use Figures/UiO_Seal_A_ENG.png>
@@ -1607,17 +1601,19 @@ Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 
 Missing character: There is no Ã in font ptmr7t!
 Missing character: There is no ¶ in font ptmr7t!
-<Figures/rho_maxOnEigenvalue.png, id=273, 422.32782pt x 316.18124pt>
+<Figures/rho_maxOnEigenvalue.png, id=265, 422.32782pt x 316.18124pt>
 File: Figures/rho_maxOnEigenvalue.png Graphic file (type png)
 
 <use Figures/rho_maxOnEigenvalue.png>
-Package pdftex.def Info: Figures/rho_maxOnEigenvalue.png used on input line 22.
+Package pdftex.def Info: Figures/rho_maxOnEigenvalue.png used on input line 20.
 
 (pdftex.def)             Requested size: 345.70125pt x 258.82161pt.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/it' in size <10> not available
-(Font)              Font shape `OT1/ptm/b/it' tried instead on input line 23.
+(Font)              Font shape `OT1/ptm/b/it' tried instead on input line 21.
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <7.4> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 21.
  [11]
-<Figures/MatrixSizeOnEigenvalue_2state.png, id=288, 422.32782pt x 316.18124pt>
+<Figures/MatrixSizeOnEigenvalue_2state.png, id=275, 422.32782pt x 316.18124pt>
 File: Figures/MatrixSizeOnEigenvalue_2state.png Graphic file (type png)
 
 <use Figures/MatrixSizeOnEigenvalue_2state.png>
@@ -1626,37 +1622,23 @@ t line 37.
 (pdftex.def)             Requested size: 345.70125pt x 258.82161pt.
  [12 <C:/Users/Birgitte/Documents/GitHub/Project2/Report/LaTeX/Figures/rho_maxO
 nEigenvalue.png (PNG copy)>])
-(C:\Users\Birgitte\Documents\GitHub\Project2\Report\LaTeX\Chapters/DependenceOn
-NumberOfIterations.tex
-
-Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `math shift' on input line 1.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `math shift' on input line 1.
-
-<figures/NumberOfIterations.png, id=299, 422.32782pt x 316.18124pt>
+(C:\Users\Birgitte\Documents\GitHub\Project2\Report\LaTeX\Chapters/CompTime.tex
+<figures/NumberOfIterations.png, id=287, 422.32782pt x 316.18124pt>
 File: figures/NumberOfIterations.png Graphic file (type png)
 
 <use figures/NumberOfIterations.png>
-Package pdftex.def Info: figures/NumberOfIterations.png used on input line 10.
+Package pdftex.def Info: figures/NumberOfIterations.png used on input line 17.
 (pdftex.def)             Requested size: 230.4675pt x 172.54453pt.
 
-<figures/NumberOfIterationsloglog.png, id=300, 422.32782pt x 316.18124pt>
+<figures/NumberOfIterationsloglog.png, id=288, 422.32782pt x 316.18124pt>
 File: figures/NumberOfIterationsloglog.png Graphic file (type png)
 
 <use figures/NumberOfIterationsloglog.png>
 Package pdftex.def Info: figures/NumberOfIterationsloglog.png used on input lin
-e 14.
+e 21.
 (pdftex.def)             Requested size: 230.4675pt x 172.54453pt.
-)
-(C:\Users\Birgitte\Documents\GitHub\Project2\Report\LaTeX\Chapters/CompTime.tex
-[13 <C:/Users/Birgitte/Documents/GitHub/Project2/Report/LaTeX/Figures/MatrixSiz
-eOnEigenvalue_2state.png (PNG copy)> <C:/Users/Birgitte/Documents/GitHub/Projec
-t2/Report/LaTeX/figures/NumberOfIterations.png (PNG copy)> <C:/Users/Birgitte/D
-ocuments/GitHub/Project2/Report/LaTeX/figures/NumberOfIterationsloglog.png (PNG
- copy)>])
+ [13 <C:/Users/Birgitte/Documents/GitHub/Project2/Report/LaTeX/Figures/MatrixSi
+zeOnEigenvalue_2state.png (PNG copy)>])
 (C:\Users\Birgitte\Documents\GitHub\Project2\Report\LaTeX\Chapters/Coulumbpoten
 tial.tex
 Underfull \hbox (badness 10000) in paragraph at lines 6--29
@@ -1664,13 +1646,16 @@ Underfull \hbox (badness 10000) in paragraph at lines 6--29
 hat the eigen-val-ues are sta-ble is the first step. [][][][]
  []
 
+[14 <C:/Users/Birgitte/Documents/GitHub/Project2/Report/LaTeX/figures/NumberOfI
+terations.png (PNG copy)> <C:/Users/Birgitte/Documents/GitHub/Project2/Report/L
+aTeX/figures/NumberOfIterationsloglog.png (PNG copy)>]
 <Figures/ProbFuncOmega.png, id=317, 422.32782pt x 316.18124pt>
 File: Figures/ProbFuncOmega.png Graphic file (type png)
 
 <use Figures/ProbFuncOmega.png>
 Package pdftex.def Info: Figures/ProbFuncOmega.png used on input line 38.
 (pdftex.def)             Requested size: 345.70125pt x 258.82161pt.
- [14])
+)
 (C:\Users\Birgitte\Documents\GitHub\Project2\Report\LaTeX\Chapters/Conclusion.t
 ex [15 <C:/Users/Birgitte/Documents/GitHub/Project2/Report/LaTeX/Figures/ProbFu
 ncOmega.png (PNG copy)>] [16
@@ -1693,31 +1678,28 @@ LabSolution.tex [19] [20
 File: lstlang1.sty 2015/06/04 1.6 listings language file
 )) [21]
 \tf@toc=\write6
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 44.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 44.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 43.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 43.
 
 (C:\Users\Birgitte\Documents\GitHub\Project2\Report\LaTeX\Report.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 44.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 44.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 43.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 43.
 Package rerunfilecheck Info: File `Report.out' has not changed.
-(rerunfilecheck)             Checksum: 034E8721D631BB30275A4FB32EAD7886;1180.
+(rerunfilecheck)             Checksum: 849E301901942D727C004DFB210E04AE;1086.
 
 
 LaTeX Warning: There were undefined references.
 
-
-LaTeX Warning: There were multiply-defined labels.
-
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 44.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 43.
  ) 
 Here is how much of TeX's memory you used:
- 20916 strings out of 493921
- 316294 string characters out of 3147273
- 645731 words of memory out of 3000000
- 23529 multiletter control sequences out of 15000+200000
- 81811 words of font info for 172 fonts, out of 3000000 for 9000
+ 20928 strings out of 493921
+ 316108 string characters out of 3147273
+ 648401 words of memory out of 3000000
+ 23537 multiletter control sequences out of 15000+200000
+ 91029 words of font info for 193 fonts, out of 3000000 for 9000
  847 hyphenation exceptions out of 8191
- 57i,19n,97p,766b,1533s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 57i,19n,97p,1308b,1533s stack positions out of 5000i,500n,10000p,200000b,50000s
 {C:/Program Files/MiKTeX 2.9/fonts/enc/dvips/fontname/8r.enc}<C:/Program File
 s/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmex10.pfb><C:/Program Files/MiKTeX
  2.9/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Program Files/MiKTeX 2.9/fon
@@ -1729,9 +1711,9 @@ rogram Files/MiKTeX 2.9/fonts/type1/urw/symbol/usyr.pfb><C:/Program Files/MiKTe
 X 2.9/fonts/type1/urw/times/utmb8a.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1
 /urw/times/utmbi8a.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/urw/times/utmr8
 a.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/urw/times/utmri8a.pfb>
-Output written on Report.pdf (27 pages, 256839 bytes).
+Output written on Report.pdf (27 pages, 257966 bytes).
 PDF statistics:
- 458 PDF objects out of 1000 (max. 8388607)
- 157 named destinations out of 1000 (max. 500000)
- 167 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 446 PDF objects out of 1000 (max. 8388607)
+ 152 named destinations out of 1000 (max. 500000)
+ 159 words of extra memory for PDF output out of 10000 (max. 10000000)
 

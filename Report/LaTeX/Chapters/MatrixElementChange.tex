@@ -1,7 +1,7 @@
 \subsection{Change in Matrix Elements after Iterations and Choice of $\theta$}
 \label{subsec:MatrixElementChange}
 % I write here what happens to b_{ij} and how wo choose tau, t, s, c s.a. we creates zeros in B
-The algorithm for solving the eigenvalue problem given in \fxnote{eqref} contains of multiply similarity transformations of the matrix $\v{A}$, in which we assume $a_{kl}$ to be the largest off-diagonal element.
+The algorithm for solving the eigenvalue problem given in \fxnote{eqref} contains of multiple similarity transformations of the matrix $\v{A}$, in which we assume $a_{kl}$ to be the largest off-diagonal element.
 The matrix $\v{B}$ constructed by the similarity transformation is given by
 \begin{align}
 	\v{B} = \v{S}^T \v{A} \v{S}
@@ -62,12 +62,12 @@ From the solutions for $\tan \theta$ given in \eqref{eq:MatrixElements4}, $\cos 
 If $\tau < 0$, $\tan \theta$ is chosen to be
 \begin{align}
 	\tan \theta = -\tau - \sqrt{1 + \tau ^2}
-	\label{eq:MatrixElements4}
+	\label{eq:MatrixElements5}
 \end{align}
 whilst if $\tau \geq 0$, $\tan \theta$ is calculated as
 \begin{align}
 	\tan \theta = -\tau + \sqrt{1 + \tau ^2}
-	\label{eq:MatrixElements4}
+	\label{eq:MatrixElements6}
 \end{align}
 This choice is made to always make $\tan \theta$ the smaller of the two roots given in \eqref{eq:MatrixElements4}.
 Furthermore, this choice ensures that $|\tan \theta | \leq 1$, yielding that $|\theta| \leq \pi/4$.
