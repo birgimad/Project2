@@ -1,15 +1,23 @@
 \chapter{Introduction}
 %An introduction where you explain the aims and rationale for the physics case and what you have done. At the end of the introduction you should give a brief summary of the structure of the report
 
-Bla bla bla
+The aim of this project is to solve Schr\"{o}dinger's equation numerically, using Jacobi's method, for a single electron with zero angular momentum in a harmonic oscillator potential, as well as for two electrons in a three dimensional harmonic oscillator well, both with and without Coulomb interaction.  
+To solve Schr\"{o}dinger's equation using Jacobi's method, it is first reformulated into an eigenvalue problem. 
 
-%Fra project1:
-The codes written in this project and the results gained from the codes, can be found by following the link: \url{https://?} to the GitHub repository. 
+The Jacobi algorithm is implemented in c++, and the source codes developed in this project and selected results, can be found in the GitHub repository: \url{https://?} . 
 \fxnote{correct the these lines} 
 
-We can ref. to sections etc. using "secref"-command like: \secref{chap:method}
+In order to insure the credibility of the algorithm, various tests  are run.
+Amongst these tests are solving the considered eigenvalue problem for a simple $2\times 2$ case to check the correctness of the computed solution to the known values, and a comparison of the computed eigenvalues to the analytical solution.  
 
-Vectors can be written using "v"-command like: $\v{v}$
+The characteristics of the algorithm are, furthermore, examined by finding the optimal number of steps and interval that gives the best value of the lowest three eigenvalues for the single particle case.
+As a part of this characterization, the influence of number of steps on the number of iterations in the Jacobi method is investigated, and the consequence of changing the size of the considered interval and the number of steps both independently and dependently of each other is discussed.  
+Furthermore, the computed Jacobi algorithm is compared to the precomputed Armadillo function for solving eigenvalue problems.
+% Then we used the algorithm to study a system with two electrons in a harmonic oscillator well with and without a repulsive coulomb interaction between electrons. 
 
-.... and a lot of other cool stuff!
+The report mainly consists of two sections. First section discusses  the nature of the problem, the functionality of the algorithm and also the various tests on the algorithm.  The last section is about the results, its interpretation and discussions.
+
+
+
+
 

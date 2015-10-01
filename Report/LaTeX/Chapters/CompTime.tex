@@ -1,11 +1,10 @@
-\subsection{Computation Time Compared to Alternative Algorithm}
+\section{Computation Time Compared to Alternative Algorithm}
 \label{subsec:CompTime}
-When calculating the time needed for the Jacobi rotation algorithm described in \fxnote{ref to section} to solve the eigenvalue problem with a matrix $\v{A}$ of dimensionality $200 \times 200$, $\rho_{max} = 5$, and $\epsilon = 10^{-8}$ the elapse time if found to be 17 sec.
+When computing the time needed for the Jacobi rotation algorithm computed in this project to solve the eigenvalue problem with a matrix $\v{A}$ of dimensionality $200 \times 200$, $\rho_{max} = 5$, and $\epsilon = 10^{-8}$ the elapse time if found to be 17 sec.
 \fxnote{ref to results} 
 %using specified statements in c++
 This is a much greater value than the elapsed time for solving the same eigenvalue problem using the Armadillo function 
-\textit{eig\_sym} 
-for the same $\epsilon = 10^{-8}$, since the Armadillo function has a displayed computational time of 0 sec (the computational time is of course not 0 sec, but the precision of the displayed time is so low that the number is displayed as 0). 
+\textit{eig\_sym}, since the Armadillo function has a displayed computational time of 0 sec (the computational time is of course not 0 sec, but the precision of the displayed time is so low that the number is displayed as 0). 
 It is hence clear that the computed Jacobi algorithm consumes more time than the precomputed Armadillo function and as we increases the size of the matrix the elapsed time to get the solution also increases. 
 This makes Jacobi rotation algorithm less efficient.
 
@@ -31,5 +30,4 @@ E.g. with $n=100$ the number of iterations for the while loop in the Jacobi meth
 The slowness of the Jacobi algorithm has the effect that it cannot be run for too large matrices, and hence there is a significant limit for how small the step length $h$ can be made, and ultimately a limit to the precision of the algorithm.  
 
 It is, however, evident that the Jacobi method implemented in this project can be improved for solving the specific eigenvalue problem described by \matref{eq:NatureOfTheProblem5} and \eqref{eq:NatureOfTheProblem6} by taking into account that the matrix $\v{A}$ is tridiagonal and has constant values in the entrances adjacent to the diagonal.
-\fxnote{reference ??} 
 However, this improvement of the algorithm is not in the scope of this project.

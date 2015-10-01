@@ -1,43 +1,41 @@
-\subsection{Dependence of $\rho_{max}$ and $n$ on Eigenvalue}
+\section{Dependence of $\rho_{max}$ and $n$ on Eigenvalue}
 \label{subsec:DependenceOnEigenvalue}
-For a single electron moving in a three-dimensional harmonic oscillator potential, the analytical solution for first three eigenvalues to the rewritten Schrödinger's equation 
+For a single electron moving in a three-dimensional harmonic oscillator potential, the analytical solution for the first three eigenvalues to the rewritten Schrödinger's equation stated in 
 \matref{eq:NatureOfTheProblem2} 
-is $\lambda_0 = 3$, $\lambda_1 = 7$, and $\lambda_2 = 11$, for  $l=0$.
+are $\lambda_0 = 3$, $\lambda_1 = 7$, and $\lambda_2 = 11$, for  $l=0$.
 
-In the code given in ?? the two parameters $\rho_{max}$ and $n$ can be modified to give a more or less accurate numerical solution to the problem.
+In the computed code for solving the eigenvalue problem numerically using the Jacobi method, the two parameters $\rho_{max}$ and $n$ can be modified to give a more or less accurate numerical solution to the problem.
 If not considering the computational time, limit in memory, and round-off errors, the obvious preferable choice of $\rho_{max}$ and $n$ would be to make both numbers infinite. 
-This is, however, not a realistic possibility, and this sections is therefore dedicated to find (discuss) on the optimal choices for $\rho_{max}$ and $n$ to obtain acceptable values for the eigenvalues of \fxnote{eqref}.
+This is, however, not a realistic possibility, and this sections is therefore dedicated to find and discuss on the optimal choices for $\rho_{max}$ and $n$ to obtain acceptable values for the eigenvalues of \matref{eq:NatureOfTheProblem5} with the matrix $\v{A}$ defined in \matref{eq:NatureOfTheProblem6}.
 
 Changing $\rho_{max}$ causes the interval $[\rho_{min}, \rho_{max}]$, in which the wave function is considered, to change. 
 Since the wave function goes to zero as the distance goes to infinity, it is acceptable to neglect the contribution from some $\rho_{max}$. 
-It is a \fxnote{fordel} to decrease $\rho_{max}$ and hence making the interval smaller, in the sense that a smaller $n$ then is needed to create a sufficient step length and ultimately a good enough "resolution". 
-However, if this $\rho_{max}$ is too close to $\rho_{min}$ the neglected part can actually not be neglected, if an acceptable result is wished for. 
+It is an advantage to decrease $\rho_{max}$ and hence making the interval smaller, in the sense that then a smaller $n$ is needed to create a sufficient step length and ultimately a good enough "resolution". 
+However, if this $\rho_{max}$ is too close to $\rho_{min}$ the neglected part of the eigenfunction can actually not be neglected, if an acceptable result is wished for. 
 
-In the figure below, the dependence of different integer valued $\rho_{max}$ on the three first eigenvalues gained by the algorithm described in \fxnote{sec ref} is plotted for $n=100$. 
-\fxnote{comment on, why we only have integer $\rho_max$}
+In the figure below, the dependence of different integer valued $\rho_{max}$ on the three first eigenvalues gained by computed Jacobi method is plotted for $n=100$. 
 \begin{figure}[H]
 	\centering
 	\includegraphics[width=0.75\textwidth]{Figures/rho_maxOnEigenvalue.png}
-	\caption{The computed eigenvalue for the ground state and the first two excited states of the one electron in a harmonic oscillator potential case plotted as functions of $\rho_{max}$ for $\rho_{min} = 0$. For small values of $\rho_{max}$ (that is $\rho_{max} \leq 3$ for this case) the eigenvalue is greatly varying with $\rho_{max}$, but for greater values of the eigenvalue seems to stabilize as a function of $\rho_{max}$ towards the analytical results for the eigenvalues os this problem.}
+	\caption{The computed eigenvalue for the ground state and the first two excited states of the one electron in a harmonic oscillator potential case plotted as functions of $\rho_{max}$ for $\rho_{min} = 0$. For small values of $\rho_{max}$ (that is $\rho_{max} \leq 3$ for this case) the eigenvalue is greatly varying with $\rho_{max}$, but for greater values of $\rho_{max}$ the eigenvalue seems to stabilize as a function of $\rho_{max}$ towards the analytical results for the eigenvalues of this problem.}
 	\label{fig:DependenceOnEigenvalue1}
 \end{figure}
-From the figure that if $\rho_{max} < 3$ the eigenvalues are varying dramatically.
+From the it is evident that figure that if $\rho_{max} < 3$ the eigenvalues are varying dramatically.
 This happens due to neglect of strongly contributing parts of the eigenfunction. 
-\fxnote{is this ok??}
 When $\rho_{max}$ is so large that the greatest contributive parts of the eigenfunction is in the interval from $\rho_{min}$ to $\rho_{max}$, the variation of the eigenvalue decreases strongly.
-However, when increasing $\rho_{max}$ for the same value of $n$ the step length is increased, as well, which once again influences the computed eigenvalue.
+However, when increasing $\rho_{max}$ for the same value of $n$ the step length is increased, as well, which once again influences the precision of the computed eigenvalue.
  
 The $\rho_{max}$ that, with $n=100$, gives the most accurate result for all three of the first eigenvalues is $\rho_{max} = 5$. 
 Since this $\rho_{max}$ gives the most accurate result for a relatively small $n$, this is chosen as the optimal $\rho_{max}$ in this and the following sections for this specific problem. 
 
-With this $\rho_{max}$, we wish to find the number of $n$ that gives the first three eigenvalues with four leading digits. 
-This optimal $n$ is found by steady increment of $n$, as seen in \fxnote{figref below}.
+With this $\rho_{max}$, we wish to find the integer value of $n$ that gives the first three eigenvalues with four leading digits. 
+This optimal $n$ is found by steady increment of $n$, as seen in \figref{fig:DependenceOnEigenvalue2}.
 \begin{figure}[H]
 	\centering
 	\includegraphics[width=0.75\textwidth]{Figures/MatrixSizeOnEigenvalue_2state.png}
-	\caption{Plot of the second eigenvalue of the one electron in a simple harmonic oscillator case. The second eigenvalue is plotted as a function of the number of steps $n$ for $\rho_{min} = 0$, $\rho_{max} = 5$, and $\epsilon = 10^{-8}$. The analytical solution for the first excited state of this case is $7$, and from the graph it is evident that the numerical solution gained from the computed Jacobi method approaches the analytical solution, as $n$ is increased. One can, however, suspect that a further increment of $n$ can lead to greater round-off errors, and hence a worse result.}
+	\caption{Plot of the second eigenvalue of the one electron in a simple harmonic oscillator case. The second eigenvalue is plotted as a function of the number of steps $n$ for $\rho_{min} = 0$ and $\rho_{max} = 5$. The analytical solution for the first excited state of this case is $7$, and from the graph it is evident that the numerical solution gained from the computed Jacobi method approaches the analytical solution, as $n$ is increased. One can, however, suspect that a further increment of $n$ can lead to greater round-off errors, and hence a worse result.}
 	\label{fig:DependenceOnEigenvalue2}
 \end{figure}
-The eigenvalue of the first exited is seen to be asymptotic to the analytical solution $\lambda_1 = 7$, and at a matrix size of $n=200$,  the eigenvalue of the first exited state has the numerical solution $6.99904$. 
+The eigenvalue of the first exited state is seen to be asymptotic to the analytical solution $\lambda_2 = 7$, and at a matrix size of $n=200$,  the eigenvalue of the first exited state has the numerical solution $6.99904$. 
 This yields an accuracy up to four leading digits, which is also found to be the case for the ground state and the third eigenstate.
 Hence, the optimal $\rho_{max}$ and $n$ is $5$ and $200$, respectively. 
