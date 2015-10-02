@@ -1,12 +1,11 @@
 
-\subsection*{Coulumb potential}
+\subsection*{New potential and repulsive Coulomb interaction}
 
-\fxnote{Introduce Coulumb}
 
-First considering the value of $\rho_{max}$ in the case without a repulsive Coulumb interaction. Where finding a value of $\rho_{max}$ so that the eigenvalues are stable is the first step. \fxnote{rewrite sentence}  
+Introducing a new potential $V_{\rho} = \omega^2\rho^2 + \frac{1}{\rho}$ where $\omega$ is an oscillator frequency and $\frac{1}{\rho}$ is a repulsive Coulomb potential. First considering the value of $\rho_{max}$ in the case without a repulsive Coulumb interaction. Where finding a value of $\rho_{max}$ so that the eigenvalues are stable is the first step. \fxnote{rewrite sentence}  
 %----------------------------------
 \begin{wraptable}{r}{5.0cm}
-\caption{hei hei} 
+\caption{hei hei\fxnote{add caption}} 
 \label{tab:rhomax}
 \phantom{.}
 \begin{tabular}{|c|c|c|}
@@ -28,15 +27,24 @@ $\rho_{max}$ & N & 3rd eigenvalue \\
 
 \end{wraptable}
 %------------------------------------
-Stable is chosen so that the values doesn't change to much. This is in the area of $\rho_{max} = 10$ and the change is about 0.2 between the surrounding steps. Also the change between 10 and 10.1 is about 0.02 so small changes in $\rho_{max} $ doesn't give big changes. Also the relation between $\rho_{max}$ and n is kept constant so that \fxnote{ref h} is constant. Running for different values of $\rho_{max}$ with the ratio gives \tabref{tab:rhomax}, which shows that when $\rho_{max} $ is 10 the results are stable for the 3rd eigenvalue. The reason for choosing the 3rd eigenvalue is that it is more sensitive for change of $\rho_{max}$ and it's the last printed eigenvalue in the program. 
+For this to be stable the change should be small, so $\rho_{max} = 10$ and the change is about 0.2 between the surrounding steps. Also the change between 10 and 10.1 is about 0.02 so small changes in $\rho_{max} $ doesn't give big changes. Also the relation between $\rho_{max}$ and n is kept constant so that \fxnote{ref h} is constant. Running for different values of $\rho_{max}$ with the ratio gives \tabref{tab:rhomax}, which shows that when $\rho_{max} $ is 10 the results are stable for the 3rd eigenvalue. The reason for choosing the 3rd eigenvalue is that it is more sensitive for change of $\rho_{max}$ and it's the last printed eigenvalue in the program. 
 
 
-Write smt awesomeabout the following plot of the eigenfunctions :D
+The Eigenvectors are used for determining the wave function, and in this case they are used squared so they show the probability density of the distance $\rho$ between the two electrons. Which gives the most probable distance between the particles,the distance $\rho = (\frac{1}{\alpha})r$ where $\alpha = (\frac{\hbar^2}{mk})^{1/4}$. The reason for this is better described in \secref{sec:NatureOfTheProblem}. Plotting the distance as a function of $\rho$ for different values of the frequency $\omega_r$, \figref{fig:ProbFuncOmegaWithout} shows that for a higher frequency $\omega_r$ the distance between the particles are bigger and the spread in area which the particle can be in is also more stretched out. 
+
+\begin{figure}[H]
+	\centering
+	\includegraphics[width=0.75\textwidth]{Figures/2particles_without.png}
+	\caption{The probability density as a function of distance $\rho$ without repulsive Coulomb interaction. Where $\rho_{min} = 0$, $\rho_{max} = 10$ and $n = 200$  }
+	\label{fig:ProbFuncOmegaWithout}
+\end{figure}
+
+When adding a repulsive Coulomb potential $\frac{1}{\rho}$ to the potential $V(\rho )$ in \figref{fig:ProbFuncOmega} the probability density is pushed to a longer distance, although it might be a bit difficult to see in \figref{fig:ProbFuncOmega} and \figref{fig:ProbFuncOmegaWithout}.
 
 \begin{figure}[H]
 	\centering
 	\includegraphics[width=0.75\textwidth]{Figures/ProbFuncOmega.png}
-	\caption{Awesome caption}
+	\caption{The probability density as a function of distance $\rho$ with a repulsive Coulomb interaction. Where $\rho_{min} = 0$, $\rho_{max} = 10$ and $n = 200$}
 	\label{fig:ProbFuncOmega}
 \end{figure}
 
