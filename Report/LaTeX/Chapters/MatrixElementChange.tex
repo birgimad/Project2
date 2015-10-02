@@ -1,7 +1,7 @@
 \subsection{Change in Matrix Elements after Iterations and Choice of $\theta$}
 \label{subsec:MatrixElementChange}
 % I write here what happens to b_{ij} and how wo choose tau, t, s, c s.a. we creates zeros in B
-The algorithm for solving the eigenvalue problem given in \fxnote{eqref} contains of multiply similarity transformations of the matrix $\v{A}$, in which we assume $a_{kl}$ to be the largest off-diagonal element.
+The algorithm for solving the eigenvalue problem given in \fxnote{eqref} contains of multiple similarity transformations of the matrix $\v{A}$, in which we assume $a_{kl}$ to be the largest off-diagonal element.
 The matrix $\v{B}$ constructed by the similarity transformation is given by
 \begin{align}
 	\v{B} = \v{S}^T \v{A} \v{S}
@@ -30,7 +30,8 @@ After matrix multiplication with the orthogonal transformation matrix $\v{S}$ an
 	& b_{kl} = (a_{kk} - a_{ll} ) \cos \theta \sin \theta + a_{kl} (\cos ^2 \theta - \sin ^2 \theta )
 \end{align*}
 Due to the symmetry in \eqref{eq:similarityTransf1} with $\v{A}$ being a tridiagonal symmetric matrix, $b_{lk} = b_{kl}$, $b_{ki} = b_{ik}$, and $b_{li} = b_{il}$.
-\fxnote{check that this is actually correct}
+
+
 Since $\theta$ can be chosen arbitrarily, we choose $\theta$ to be the angle at which $b_{kl}$, and hence $b_{lk}$, becomes zero.
 In this way, the largest element of $\v{A}$ is eliminated, and it can be shown that this choice of $\theta$ reduces the norm of the off-diagonal elements of $\v{A}$, which ensures that the algorithm terminates towards the eigenvalues.
 \fxnote{this, I can write, right??}
@@ -62,12 +63,12 @@ From the solutions for $\tan \theta$ given in \eqref{eq:MatrixElements4}, $\cos 
 If $\tau < 0$, $\tan \theta$ is chosen to be
 \begin{align}
 	\tan \theta = -\tau - \sqrt{1 + \tau ^2}
-	\label{eq:MatrixElements4}
+	\label{eq:MatrixElements5}
 \end{align}
 whilst if $\tau \geq 0$, $\tan \theta$ is calculated as
 \begin{align}
 	\tan \theta = -\tau + \sqrt{1 + \tau ^2}
-	\label{eq:MatrixElements4}
+	\label{eq:MatrixElements6}
 \end{align}
 This choice is made to always make $\tan \theta$ the smaller of the two roots given in \eqref{eq:MatrixElements4}.
 Furthermore, this choice ensures that $|\tan \theta | \leq 1$, yielding that $|\theta| \leq \pi/4$.
@@ -87,7 +88,27 @@ since $\sqrt{1+\tau^2} \leq \sqrt{2}$.
 
 The fact that $|\theta| \leq \pi/4$ ensures that $\cos \theta \geq 0$ which ultimately ensures that the difference between $\v{A}$ and the new matrix $\v{B}$ is minimized, since
 \begin{align}
-	||\v{B}-\v{A}||_F^2=4(1-c)\sum_{i=1,i\ne k,l}^n(a_{ik}^2+a_{il}^2) +\frac{2a_{kl}^2}{c^2}.
+	||\v{B}-\v{A}||_F^2=4(1-\cos \theta)\sum_{i=1,i\ne k,l}^n(a_{ik}^2+a_{il}^2) +\frac{2a_{kl}^2}{\cos ^2\theta}.
 \end{align}
-\fxnote{and why is this minimization a good thing?? :-P}
-\fxnote{inddrag del af kode}
+When implementing the elements of $\v{B}$ in the algorithm, the following source code is used:
+\begin{lstlisting}
+// Computing the new matrix A
+        for (int i = 0; i<n; i++)
+        {
+            if (i != row_number && i != column_number)  // determining A(i,k) for new matrix
+            {
+                a_ik = A(i,row_number);
+                a_il = A(i,column_number);
+                A(i,row_number) = a_ik*c - a_il*s;
+                A(i,column_number) = a_il*c + a_ik*s;
+                A(row_number,i) = A(i,row_number);
+                A(column_number,i) = A(i,column_number);
+            }
+        }
+        A(row_number, row_number) = a_kk*pow(c,2) - 2*a_kl*c*s+a_ll*pow(s,2);
+        A(column_number, column_number) = a_ll*pow(c,2) + 2*a_kl*c*s+a_kk*pow(s,2);
+        A(column_number, row_number) = 0.00;  //By choice of theta
+        A(row_number, column_number) = 0.00;  //By choice of theta
+\end{lstlisting}
+In the above source code lines \textit{a\_ij} is the $ij$'th element of matrix $\v{A}$, whilst \textit{A(i,j)} is the $ij$'th element of matrix $\v{B}=\v{S} ^T\v{A} \v{S}$. \textit{row\_number} and \textit{column\_number} are the row number and column number of the element of $\v{A}$ with the maximum absolute value. 
+As seen in the source code, the elements $b_{kl} = b_{lk}$ with the largest absolute value are forced to zero by the choice of $\theta$ to save computational time.  

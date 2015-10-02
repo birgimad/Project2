@@ -1,6 +1,4 @@
-
-
-\subsection*{Off-diagonal norm}
+\subsection{Off-diagonal norm}
 
 Similarity transformations is used to reduce the off-diagonal norm. The norm found by \matref{eq:normA}, is wanted as small as possible and smaller than a given test value $\epsilon $. Ideally the norm should get to zero, but that is difficult because when the elements gets small there can be problems with round-off errors. The value $\epsilon $ is therefore set so that it gives the smallest values possible without problems round-off errors, typically set around $10^{-8}$.  
 
@@ -10,7 +8,7 @@ Similarity transformations is used to reduce the off-diagonal norm. The norm fou
 \end{equation} 
 
 
-This norm i compared after each transformation so that the new matrix $\v{B}$ is as close to a diagonal matrix as possible. But this is a very time consuming approach and requires many calculations. So instead \matref{eq:maxa} is used as it is less time consuming. 
+This norm is compared after each transformation so that the new matrix $\v{B}$ is as close to a diagonal matrix as possible. But this is a very time consuming approach and requires many calculations. So instead \matref{eq:maxa} is used as it is less time consuming. 
 
 \begin{equation}
 	max(a_{kl}^2) > \epsilon
